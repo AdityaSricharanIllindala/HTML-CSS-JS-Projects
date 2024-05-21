@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url('../assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    background: rgba(39, 39, 39, 0.4);
+    height: 110vh;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+.navbar ul li {
+    padding: 35px;
+    border-bottom: none;
+    transition: 0.3s ease-in-out border-bottom;
+}
+
+.navbar ul li:hover {
+    border-bottom: 2px solid #fff;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
